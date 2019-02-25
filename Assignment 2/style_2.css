@@ -1,0 +1,38 @@
+body {
+	
+}
+
+h1 {
+	text-align: center;
+
+}
+
+#title {
+
+}
+
+#title:before {
+	content: "Welcome to ";
+	font-size: 32px;
+}
+
+h2 {
+	text-align: center;
+	color: green;
+	
+	
+}
+
+#corporation {
+	border: solid;
+
+}
+
+#intro: img {
+	float: 
+}
+
+div img{
+	float: left;
+}
+
