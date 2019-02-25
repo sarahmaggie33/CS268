@@ -1,14 +1,67 @@
 body {
 	font-size: 16px;
-	
+	font-family: monaco,Consolas,Lucida Console,monospace;
 }
 
-h1 {
+h2 {
+	font-size: 16px;
+}
+
+#wrapper {
+	width: 1200px;
+	margin: auto;
+	border: 2px solid black;
+	padding: 40px;
+}
+
+img {
+	display: none;
+}
+
+.sensitive {
 	color: black;
-	text-align: ;
+	background-color: black;
 }
 
-p {
-	font-family: ;
-	font-size: ;
+#title {
+	text-align: right;
+	font-size: 16px;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+
+#title:after {
+	text-align: right;
+	font-size: 16px;
+	font-family: "Courier New", Courier, monospace;
+	content: " Incident Report pg 1/785";
+	font-weight: bold;
+}
+
+#navlist {
+	text-align: right;
+	list-style-type: none;
+}
+
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:active {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover:before {
+	color: black;
+	text-decoration: none;
+	content: "->";
+	position: left;
 }
