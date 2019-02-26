@@ -1,38 +1,47 @@
 body {
-	
+
 }
 
 h1 {
 	text-align: center;
+}
 
+
+
+#navlist {
+	background-color: white;
+	display: inline-block;
+	border-left: 5px solid green;
+	border-bottom: 5px solid green;
+	border-top: 5px solid green;
+	padding: 0px;	
+	list-style-type: none;
+	
 }
 
 #title {
-
+	font-size: 72px;
 }
 
 #title:before {
 	content: "Welcome to ";
-	font-size: 32px;
+	font-size: 72px;
 }
 
 h2 {
 	text-align: center;
-	color: green;
-	
-	
+	color: green;	
 }
 
-#corporation {
+.section {
 	border: solid;
-
+	margin-bottom: 50px;
+	clear: none;
+	
+	display: run-in;
 }
 
-#intro: img {
-	float: 
-}
 
-div img{
-	float: left;
-}
+
+
 
