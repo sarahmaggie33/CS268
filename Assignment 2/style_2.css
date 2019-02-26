@@ -1,5 +1,19 @@
-body {
 
+body {
+	background-color: black;
+	padding-right: 500px;
+	padding-left: 500px;
+	padding-top: 50px;
+}
+
+#wrapper {
+
+	background-color: white;
+	padding: 50px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: gold;
+	border-width: 15px;
 }
 
 h1 {
@@ -16,6 +30,9 @@ h1 {
 	border-top: 5px solid green;
 	padding: 0px;	
 	list-style-type: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
 	
 }
 
@@ -36,7 +53,5 @@ h2 {
 .section {
 	border: solid;
 	margin-bottom: 50px;
-	clear: none;
 	
-	display: run-in;
 }
