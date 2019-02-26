@@ -1,0 +1,21 @@
+#title {
+	text-align: right;
+	font-size: 16px;
+	font-family: "Courier New", Courier, monospace;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+#title:after {
+	text-align: right;
+	font-size: 16px;
+	font-family: "Courier New", Courier, monospace;
+	content: ": What we know";
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.sensitive {
+	color: black;
+	background-color: black;
+}
