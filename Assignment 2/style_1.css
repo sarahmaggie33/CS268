@@ -18,6 +18,10 @@ img {
 	display: none;
 }
 
+p {
+	padding: 30px;
+}
+
 .sensitive {
 	color: black;
 	background-color: black;

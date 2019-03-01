@@ -5,6 +5,7 @@ body {
 	padding-left: 150px;
 	padding-top: 50px;
 	width: 1200px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 #wrapper {
@@ -40,14 +41,15 @@ h2 {
 }
 
 p {
-	font-size: 22px;
+	font-size: 20px;
 	overflow: hidden;
-	padding: 25px;
+	padding: 33px;
 }
 
 .section {
 	border: solid;
 	margin-bottom: 50px;
+	border-width: 3px;
 	padding: 30px;
 }
 
@@ -58,20 +60,18 @@ p {
 	right: 10px;
 }
 
-#navigation:nth-child(1) a {
-	font-size: 32px;
-	padding: 5px;
-	border-top: 5px solid #FFA500;
-	display: block;
-}
-
-a:nth-child(n+2) {
-	font-size: 32px;
-	padding: 5px;
+a {
 	border-left: 5px solid #FFA500;
+	font-size: 32px;
+	padding: 5px;
 	border-bottom: 5px solid #FFA500;
 	background: white;
 	display: block;
+}
+
+
+li:nth-child(1) a{
+	border-top: 5px solid #FFA500;
 }
 
 .subsection:nth-child(odd) img {
@@ -98,14 +98,14 @@ a:visited {
 	text-decoration: none;
 }
 
-a:active {
-	color: white;
-	background: orange;
-	text-decoration: none;
-}
-
 a:hover {
 	color: orange;
 	background: black;
+	text-decoration: none;
+}
+
+a:active {
+	color: white;
+	background: orange;
 	text-decoration: none;
 }
