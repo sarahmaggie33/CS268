@@ -55,7 +55,8 @@ a:hover:after {
 	text-align: center;
 	font-size: 25px;
 	color: green;
-	text-transform: uppercase; 
+	text-transform: uppercase;
+	background: rgba(128, 128,128, 0.5); 
 }
 
 .subsection {
