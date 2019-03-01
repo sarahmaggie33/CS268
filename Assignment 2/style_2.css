@@ -1,44 +1,25 @@
 
 body {
 	background-color: black;
-	padding-right: 500px;
-	padding-left: 500px;
+	padding-right: 100px;
+	padding-left: 150px;
 	padding-top: 50px;
+	width: 1200px;
 }
 
 #wrapper {
-
 	background-color: white;
-	padding: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
 	border-radius: 20px;
 	border-style: solid;
-	border-color: gold;
+	border-color: #FFA500;
 	border-width: 15px;
 }
 
 h1 {
 	text-align: center;
-}
-
-
-
-#navlist {
-	font-size: 32px;
-	background-color: white;
-	display: inline-block;
-	border-left: 5px solid green;
-	border-bottom: 5px solid green;
-	border-top: 5px solid green;
-	padding: 0px;	
-	list-style-type: none;
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-	
-}
-
-#navlist li {
-	bottom-border: 5px solid blue;
 }
 
 #title {
@@ -52,20 +33,79 @@ h1 {
 
 h2 {
 	text-align: center;
-	color: green;	
+	text-transform: uppercase;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;	
+}
+
+p {
+	font-size: 22px;
+	overflow: hidden;
+	padding: 25px;
 }
 
 .section {
 	border: solid;
 	margin-bottom: 50px;
-
+	padding: 30px;
 }
 
-#intro {
-	text-align: left;
+#navlist {
+	list-style-type: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
 }
 
-#fields {
-	text-align: right;
-	overflow: auto;
+#navigation:nth-child(1) a {
+	font-size: 32px;
+	padding: 5px;
+	border-top: 5px solid #FFA500;
+	display: block;
+}
+
+a:nth-child(n+2) {
+	font-size: 32px;
+	padding: 5px;
+	border-left: 5px solid #FFA500;
+	border-bottom: 5px solid #FFA500;
+	background: white;
+	display: block;
+}
+
+.subsection:nth-child(odd) img {
+	float: right;
+	padding: 10px;
+	display: inline-block;
+}
+
+.subsection:nth-child(even) img {
+	float: left;
+	padding: 10px;
+	display: inline-block;
+}
+
+a:link {
+	color: black;
+	background: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	background: white;
+	text-decoration: none;
+}
+
+a:active {
+	color: white;
+	background: orange;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+	background: black;
+	text-decoration: none;
 }
